@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whale Profile</title>
+    <script src="./script.js" defer></script>
+
+    <!--Moralis Scripts-->
+    <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+    <!--Moralis Scripts-->
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+
+    <div class="header">
+        <div class="innerheader">
+            <div class="logocontainer">
+                <a href="index.html">NFT<span>SPY</span></a>
+            </div>
+
+            <ul class="navigation">
+                <a href="index.html"><li>Home</li></a>
+                <a href="topwhales.html"><li>Top Whales</li></a>
+                <a href="mywhales.html"><li>All Wallets</li></a>
+                <a href="topcollections.html"><li>Top Collections</li></a>
+            </ul>
+        </div>
+    </div>
+
+    <h1 class="title">joshbuckley.eth</h1>
+    <section class="profilecontainer">
+
+        <div class="profileheader">
+            
+             <ul class="tabs">
+                <li data-tab-target="#overview" class="active tab">Overview</li>
+                <li data-tab-target="#transactions" class="tab">NFT Transactions</li>
+                <li data-tab-target="#analytics" class="tab">Analytics</li>
+                <li data-tab-target="#collected" class="tab">Collected</li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="overview" data-tab-content class="active">
+                    <div class="datacontainer">
+                        <div class="box-box1">
+                            <h2>Balance</h2>
+                        </div>
+                        <div class="box-box2">
+                            <h2>Value</h2>
+                        </div>
+                        <div class="box-box3">
+                            <h2>Recent Purchase</h2>
+                        </div>
+                        <div class="box-box4">
+                            <h2>Top collection</h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="transactions" data-tab-content>
+                  
+                    <div class="transaction">
+                        <img class = 'nft-picture' src="https://lh3.googleusercontent.com/KsK3_3kND4YhzOnqOuX-N1bFghuhUpMAoRLPiA6mU1eSSj7SSfqV8jZeWY-sBtdUuTHlwadrc7kOJwl2E23PNFabItx65bPohdkV=s0" alt="">
+                        <div class="transaction-details">  
+                            <h2 class = 'transaction-name'>Crypto Punks</h2>
+                            <h2 class = 'transaction-tokenid'>Punk #6969</h2>
+                            <h2>Price</h2>
+                            <h2>When it was purchased(ex: 36 minutes ago)</h2>
+                            <h2>View on marketplace</h2>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="analytics" data-tab-content>
+                  <h1>Analytics</h1>
+                </div>
+
+                <div id="collected" data-tab-content>
+                    
+                    <div class="collected">
+                        <img class = 'nft-picture' src="https://lh3.googleusercontent.com/KsK3_3kND4YhzOnqOuX-N1bFghuhUpMAoRLPiA6mU1eSSj7SSfqV8jZeWY-sBtdUuTHlwadrc7kOJwl2E23PNFabItx65bPohdkV=s0" alt="">
+                        <div class="collected-details">  
+                            <h2 class = 'colloction-name'>Crypto Punks</h2>
+                            <h2 class = 'colloction-tokenid'>Punk #6969</h2>
+                            <h2>Price</h2>
+                            <h2>When it was purchased(ex: 36 minutes ago)</h2>
+                            <h2>View on marketplace</h2>
+                        </div>
+                    </div>
+
+                  </div>
+              </div>
+        </div>
+
+        <div class="activity">
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footercontent">
+            <h3>NFT<span>SPY</span></h3>
+            <p>The only tool you need to be successful in the NFT world.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footerbottom">
+            <p>copyright &copy;2022 nftspy.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

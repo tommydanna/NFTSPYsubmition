@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whales</title>
+    <script src="./script.js"></script>
+    <script src="./rankprofiles.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+
+    <div class="header">
+        <div class="innerheader">
+            <div class="logocontainer">
+                <a href="index.html">NFT<span>SPY</span></a>
+            </div>
+
+            <ul class="navigation">
+                <a href="index.html"><li>Home</li></a>
+                <a href="topwhales.html"><li>Top Whales</li></a>
+                <a href="mywhales.html"><li>My Whales</li></a>
+                <a href="topcollections.html"><li>Top Collections</li></a>
+            </ul>
+        </div>
+    </div>
+
+    <h1 class="title">Top 10 NFT Whales</h1>
+    <section class="container">
+        <div class="search">
+            <input type="text" class="search-bar" id="search-user" placeholder="Search by Wallet Adress / Name / Ranking" onkeyup="search()">
+            <button><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"></path></svg></button>
+        </div>
+        <div class="profile-list" id="profile-list">
+
+            <a href="whaleprofile.html">
+                <button class="profilebtn">
+                    <div class="profile">
+                        <h3 class="rank1">1</h3>
+                        <img src="https://lh3.googleusercontent.com/KsK3_3kND4YhzOnqOuX-N1bFghuhUpMAoRLPiA6mU1eSSj7SSfqV8jZeWY-sBtdUuTHlwadrc7kOJwl2E23PNFabItx65bPohdkV=s0" alt="">
+                        <div class="p-details">  
+                            <h2>joshbuckley.eth</h2>
+                            <!--<h2 class="walletamount">Wallet Amount</h2>-->
+                            <h2 class="walletaddress">0x3ba53cea97bfff5a303ffc66dc4f390383bcd62e</h2>
+                        </div>
+                    </div>
+                </button>
+            </a>
+
+            <a href="whaleprofile.html">
+                <button class="profilebtn">
+                    <div class="profile">
+                        <h3 class="rank2">2</h3>
+                        <img src="https://lh3.googleusercontent.com/KsK3_3kND4YhzOnqOuX-N1bFghuhUpMAoRLPiA6mU1eSSj7SSfqV8jZeWY-sBtdUuTHlwadrc7kOJwl2E23PNFabItx65bPohdkV=s0" alt="">
+                        <div class="p-details">
+                            <h2>JohnBorn</h2>
+                            <!--<h2 class="walletamount2">Wallet Amount</h2>-->
+                            <h2 class="walletaddress2">0x2e169a7c3d8ebec11d5b43dade06ac29fef59cb3</h2>
+                        </div>
+                    </div>
+                </button>
+            </a>
+            
+            <a href="whaleprofile.html">
+                <button class="profilebtn">
+                    <div class="profile">
+                        <h3 class="rank3">3</h3>
+                        <img src="https://lh3.googleusercontent.com/KsK3_3kND4YhzOnqOuX-N1bFghuhUpMAoRLPiA6mU1eSSj7SSfqV8jZeWY-sBtdUuTHlwadrc7kOJwl2E23PNFabItx65bPohdkV=s0" alt="">
+                        <div class="p-details">
+                            <h2>tommykchong.eth</h2>
+                            <!--<h2 class="walletamount3">Wallet Amount</h2>-->
+                            <h2 class="walletaddress3">0x70f9b79f9acea7c703998452f42ae5f18b510404</h2>
+                        </div>
+                    </div>
+                </button>
+            </a>
+
+            <a href="whaleprofile.html">
+                <button class="profilebtn">
+                    <div class="profile">
+                        <h3 class="rank">4</h3>
+                        <img src="https://lh3.googleusercontent.com/KsK3_3kND4YhzOnqOuX-N1bFghuhUpMAoRLPiA6mU1eSSj7SSfqV8jZeWY-sBtdUuTHlwadrc7kOJwl2E23PNFabItx65bPohdkV=s0" alt="">
+                        <div class="p-details">
+                            <h2>kingdalek.eth</h2>
+                            <!--<h2 class="walletamount4">Wallet Amount</h2>-->
+                            <h2 class="walletaddress4">0x3dbc93aecd50e485ecd2dd6dbe73d1ec19a4d839</h2>
+                        </div>
+                    </div>
+                </button>
+            </a>
+
+            <a href="whaleprofile.html">
+                <button class="profilebtn">
+                    <div class="profile">
+                        <h3 class="rank">5</h3>
+                        <img src="https://lh3.googleusercontent.com/KsK3_3kND4YhzOnqOuX-N1bFghuhUpMAoRLPiA6mU1eSSj7SSfqV8jZeWY-sBtdUuTHlwadrc7kOJwl2E23PNFabItx65bPohdkV=s0" alt="">
+                        <div class="p-details">
+                            <h2>showdeer.eth</h2>
+                            <!--<h2 class="walletamount5">Wallet Amount</h2>-->
+                            <h2 class="walletaddress5">0x6b261a3ec2405ae0e8e0546ad6906e65af8b8868</h2>
+                        </div>
+                    </div>
+                </button>
+            </a>
+
+            <a href="whaleprofile.html">
+                <button class="profilebtn">
+                    <div class="profile">
+                        <h3 class="rank">6</h3>
+                        <img src="https://lh3.googleusercontent.com/KsK3_3kND4YhzOnqOuX-N1bFghuhUpMAoRLPiA6mU1eSSj7SSfqV8jZeWY-sBtdUuTHlwadrc7kOJwl2E23PNFabItx65bPohdkV=s0" alt="">
+                        <div class="p-details">
+                            <h2>WatcherGuru</h2>
+                            <!--<h2 class="walletamount6">Wallet Amount</h2>-->
+                            <h2 class="walletaddress6">0xd23b10d2aa4499109688b3abb925ab41536faf59</h2>
+                        </div>
+                    </div>
+                </button>
+            </a>
+
+            <a href="whaleprofile.html">
+                <button class="profilebtn">
+                    <div class="profile">
+                        <h3 class="rank">7</h3>
+                        <img src="https://lh3.googleusercontent.com/KsK3_3kND4YhzOnqOuX-N1bFghuhUpMAoRLPiA6mU1eSSj7SSfqV8jZeWY-sBtdUuTHlwadrc7kOJwl2E23PNFabItx65bPohdkV=s0" alt="">
+                        <div class="p-details">
+                            <h2>NotTodayNoNoNo</h2>
+                            <!--<h2 class="walletamount7">Wallet Amount</h2>-->
+                            <h2 class="walletaddress7">0x57115f7d04c16f3983802b7c5a2d5089a188d76a</h2>
+                        </div>
+                    </div>
+                </button>
+            </a>
+
+            <a href="whaleprofile.html">
+                <button class="profilebtn">
+                    <div class="profile">
+                        <h3 class="rank">8</h3>
+                        <img src="https://lh3.googleusercontent.com/KsK3_3kND4YhzOnqOuX-N1bFghuhUpMAoRLPiA6mU1eSSj7SSfqV8jZeWY-sBtdUuTHlwadrc7kOJwl2E23PNFabItx65bPohdkV=s0" alt="">
+                        <div class="p-details">
+                            <h2>Boomboxhead</h2>
+                            <!--<h2 class="walletamount8">Wallet Amount</h2>-->
+                            <h2 class="walletaddress8">0x670a6eb62f5146d4b3b40c7b58aa31d175e3d6fb</h2>
+                        </div>
+                    </div>
+                </button>
+            </a>
+
+            <a href="whaleprofile.html">
+                <button class="profilebtn">
+                    <div class="profile">
+                        <h3 class="rank">9</h3>
+                        <img src="https://lh3.googleusercontent.com/KsK3_3kND4YhzOnqOuX-N1bFghuhUpMAoRLPiA6mU1eSSj7SSfqV8jZeWY-sBtdUuTHlwadrc7kOJwl2E23PNFabItx65bPohdkV=s0" alt="">
+                        <div class="p-details">
+                            <h2>bobbysolez.eth</h2>
+                            <!--<h2 class="walletamount9">Wallet Amount</h2>-->
+                            <h2 class="walletaddress9">0x4689a8ad75c3542cd248a58211bbfa8fae14ce42</h2>
+                        </div>
+                    </div>
+                </button>
+            </a>
+
+            <a href="whaleprofile.html">
+                <button class="profilebtn">
+                    <div class="profile">
+                        <h3 class="rank">10</h3>
+                        <img src="https://lh3.googleusercontent.com/KsK3_3kND4YhzOnqOuX-N1bFghuhUpMAoRLPiA6mU1eSSj7SSfqV8jZeWY-sBtdUuTHlwadrc7kOJwl2E23PNFabItx65bPohdkV=s0" alt="">
+                        <div class="p-details">
+                            <h2>mooose.eth</h2>
+                            <!--<h2 class="walletamount10">Wallet Amount</h2>-->
+                            <h2 class="walletaddress10">0x5f15e51986a3c0e9e0c0b199812a9dfcedc1752b</h2>
+                        </div>
+                    </div>
+                </button>
+            </a>
+
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footercontent">
+            <h3>NFT<span>SPY</span></h3>
+            <p>The only tool you need to be successful in the NFT world.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footerbottom">
+            <p>copyright &copy;2022 nftspy.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
